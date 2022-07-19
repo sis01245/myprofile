@@ -15,31 +15,31 @@
             font-family: "Pretendard",serif;
         }
         body {
-            background-color: #44398a;
-        }
+            background: linear-gradient(180deg, #FFFCFD 0%, #FFE2E8 100%);
+            height: 100vh;        }
         .profile {
-            width: 100px;
-            height: 100px;
+            width: 125px;
+            height: 125px;
             border-radius: 20px;
-            border : 2px solid white;
+            border : 2px solid black;
             background-image: url('수정됨_이력서 사진1.jpg');
             background-position: center;
             background-size: cover;
         }
         .main {
-            color: white;
+            color: #000000;
             font-size: 20px;
             margin-top: 30px;
             margin-bottom: 10px;
         }
         .sub {
-            color: white;
+            color: #000000;
             font-size: 18px;
             margin-top: 0px;
             margin-bottom: 30px;
         }
         .wrap {
-            width: 300px;
+            width: 400px;
             margin: 30px auto 0px auto;
             
             display: flex;
@@ -48,7 +48,7 @@
             align-items: center;
         }
         .wrap > a {
-            width: 300px;
+            width: 320px;
             height: 50px;
 
             background-color: white;
@@ -58,7 +58,7 @@
             
             font-size: 14px;
             font-weight: bold;
-            color: #44398a;
+            color: black;
 
             display: flex;
             flex-direction: column;
@@ -72,17 +72,52 @@
         .wrap > a:hover {
             background-color: #f2f2f2;
         }
+        .others {
+            margin-top: 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            font-size: 18px;
+        }
+        .buttons > a {
+            width: 152px;
+            height: 59px;
+            border-radius: 8px;
+            border-color: #000000;
+            background-color: white;
+            font-size: 15px;
+            font-weight: bold;
+            color:black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 3px 3px 5px 0px black;
+            margin: 0px 8px 17px 8px;
+        }
+        .buttons {
+            display: flex;
+        }
+        .buttons > a:hover {
+            background-color: #f2f2f2;
     </style>
 </head>
 <body>
     <div class="wrap">
         <div class="profile"></div>
-        <h1 class="main">홍민석</h1>
-        <p class="sub">포트폴리오</p>
-        <a target="_blank" href="https://drive.google.com/drive/u/1/folders/1izXfsrY0_nXsOTuqD3LEfNN02Ctl7bT5">더 지니어스 : 연세대</a>
+        <h1 class="main">홍민석 포트폴리오</h1>
+        <p class="sub">관련 경험들로 제가 가진 역량을 소개합니다.</p>
         <a target="_blank" href="https://drive.google.com/drive/u/1/folders/1GtICYLrgv5fupxfnO4zZj-rEIzQzSeUA">대학원 연구</a>
-        <a target="_blank" href="https://chang.spartacodingclub.kr/">창업 부트캠프 창</a>
-        <a target="_blank" href="https://ddingdong.spartacodingclub.kr/">띵동코딩</a>
+        <a target="_blank" href="https://drive.google.com/drive/u/1/folders/1izXfsrY0_nXsOTuqD3LEfNN02Ctl7bT5">더 지니어스 : 연세대</a>
+        <a target="_blank" href="https://chang.spartacodingclub.kr/">공유킥보드 문화 조성 프로젝트 ckic</a>
+        <p class="others">기타 역량</p>
+        <div class="buttons">
+            <a class="hang" target="_blank" href="https://hanghae99.spartacodingclub.kr/">SQL</a>
+            <a class="chang"target="_blank" href="https://chang.spartacodingclub.kr/">머신러닝</a>
+        </div>
     </div>
 </body>
 </html>
